@@ -1,0 +1,8 @@
+﻿@using Sitecore.ExperienceForms.Mvc.Html
+@model Sitecore.ExperienceForms.Mvc.Models.Fields.FileUploadViewModel
+
+<div class="form-group">
+    <label for="@Html.IdFor(m => Model.Files)" class="@Model.LabelCssClass">@Html.DisplayTextFor(t => Model.Title)</label>
+    <input id="@Html.IdFor(m => Model.Files)" name="@Html.NameFor(m => Model.Files)" class="form-control @Model.CssClass" type="file" @(Model.IsMultiple ? "Multiple" : string.Empty) data-sc-tracking="@Model.IsTrackingEnabled" data-sc-field-name="@Model.Name" data-sc-field-key="@Model.ConditionSettings.FieldKey" @Html.GenerateUnobtrusiveValidationAttributes(m => m.Files) />
+        @Html.ValidationMessageFor(m => Model.Files)
+</div>
