@@ -8,17 +8,25 @@ Examples of things to include are the following.
 
 ## Summary
 
-**Category:** Hackathon Category
+**Category:** Sitecore Marketplace Website
 
-What is the purpose of your module? What problem does it solve and how does it do that?
+This module provie the nessesary features to have a Marketplace Website. This features include the upload marketplace item and the download marketplace item. Also the download feature is like a Gated Download that you need first fill your personal information to get the download link.
+
+The problem solved is how can dynamic upload the content without sitecore admin interface, and provide basic functionality of the marketplace. It is solve integrated with Sitecore Forms.
+
 
 ## Pre-requisites
 
-Does your module rely on other Sitecore modules or frameworks?
-
-- List any dependencies
-- Or other modules that must be installed
-- Or services that must be enabled/configured
+- Nuget Packages:
+    - Sitecore.Mvc
+    - Sitecore.Mvc.Analytics
+    - Constellation.Foundation.Mvc
+    - Constellation.Foundation.Mvc.Patterns
+    - Constellation.Foundation.Datasources
+    - Constellation.Foundation.ModelMapping
+- Sitecore Packages located at /App_Data/packages:
+    - Constellation-Foundation-Datasources-Items.zip
+    - Sitecore Forms Extensions For Sitecore 9.3-3.0.zip
 
 ## Installation
 
@@ -66,6 +74,4 @@ And you can embed external images too:
 
 ## Video
 
-Please provide a video highlighing your Hackathon module submission and provide a link to the video. Either a [direct link](https://www.youtube.com/watch?v=EpNhxW4pNKk) to the video, upload it to this documentation folder or maybe upload it to Youtube...
-
-[![Sitecore Hackathon Video Embedding Alt Text](https://img.youtube.com/vi/EpNhxW4pNKk/0.jpg)](https://www.youtube.com/watch?v=EpNhxW4pNKk)
+[![Sitecore Hackathon 2020 - Just me!](https://img.youtube.com/vi/fQ8qPVl5AoA/0.jpg)](https://youtu.be/fQ8qPVl5AoA)
