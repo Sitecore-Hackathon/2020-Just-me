@@ -37,18 +37,19 @@ No configuration required
 
 ## Usage
 
-Provide documentation  about your module, how do the users use your module, where are things located, what do icons mean, are there any secret shortcuts etc.
 
-Please include screenshots where necessary. You can add images to the `./images` folder and then link to them from your documentation:
-
-![Hackathon Logo](images/hackathon.png?raw=true "Hackathon Logo")
-
-### 
+### Navigation on Marketplace Website
 
  N | Step | Image or Code Reference
 --- | --- | ---
-1 | 2 | 3
-2 | --- | ---
+1 | 2 | ![Step 1](images/screenshots/step1.png "Step 1")
+2 | --- | ![Step 2](images/screenshots/step2.png "Step 2")
+3 | --- | ![Step 3](images/screenshots/step3.png "Step 3")
+4 | --- | ![Step 4](images/screenshots/step4.png "Step 4")
+5 | --- | ![Step 5](images/screenshots/step5.png "Step 5")
+6 | --- | ![Step 6](images/screenshots/step6.png "Step 6")
+7 | --- | ![Step 7](images/screenshots/step7.png "Step 7")
+8 | --- | ![Step 8](images/screenshots/step8.png "Step 8")
 
 ## Video
 
