@@ -2,10 +2,6 @@
 
 The documentation for this years Hackathon must be provided as a readme in Markdown format as part of your submission. 
 
-You can find a very good reference to Github flavoured markdown reference in [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). If you want something a bit more WYSIWYG for editing then could use [StackEdit](https://stackedit.io/app) which provides a more user friendly interface for generating the Markdown code. Those of you who are [VS Code fans](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview) can edit/preview directly in that interface too.
-
-Examples of things to include are the following.
-
 ## Summary
 
 **Category:** Sitecore Marketplace Website
@@ -32,29 +28,12 @@ The problem solved is how can dynamic upload the content without sitecore admin 
 
 Provide detailed instructions on how to install the module, and include screenshots where necessary.
 
-1. Use the Sitecore Installation wizard to install the [package](#link-to-package)
-2. ???
-3. Profit
+1. Use the Sitecore Installation wizard to install the [Marketplace Website Module-1.0.0.zip](https://github.com/Sitecore-Hackathon/2020-Just-me/blob/master/documentation/requirements/Marketplace%20Website%20Module-1.0.0.zip)
+2. Deploy
 
 ## Configuration
 
-How do you configure your module once it is installed? Are there items that need to be updated with settings, or maybe config files need to have keys updated?
-
-Remember you are using Markdown, you can provide code samples too:
-
-```xml
-<?xml version="1.0"?>
-<!--
-  Purpose: Configuration settings for my hackathon module
--->
-<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
-  <sitecore>
-    <settings>
-      <setting name="MyModule.Setting" value="Hackathon" />
-    </settings>
-  </sitecore>
-</configuration>
-```
+No configuration required
 
 ## Usage
 
@@ -64,13 +43,12 @@ Please include screenshots where necessary. You can add images to the `./images`
 
 ![Hackathon Logo](images/hackathon.png?raw=true "Hackathon Logo")
 
-You can embed images of different formats too:
+### 
 
-![Deal With It](images/deal-with-it.gif?raw=true "Deal With It")
-
-And you can embed external images too:
-
-![Random](https://placeimg.com/480/240/any "Random")
+ N | Step | Image or Code Reference
+--- | --- | ---
+1 | 2 | 3
+2 | --- | ---
 
 ## Video
 
