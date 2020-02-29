@@ -42,14 +42,14 @@ No configuration required
 
  N | Step | Image or Code Reference
 --- | --- | ---
-1 | 2 | ![Step 1](images/screenshots/step1.png "Step 1")
-2 | --- | ![Step 2](images/screenshots/step2.png "Step 2")
-3 | --- | ![Step 3](images/screenshots/step3.png "Step 3")
-4 | --- | ![Step 4](images/screenshots/step4.png "Step 4")
-5 | --- | ![Step 5](images/screenshots/step5.png "Step 5")
-6 | --- | ![Step 6](images/screenshots/step6.png "Step 6")
-7 | --- | ![Step 7](images/screenshots/step7.png "Step 7")
-8 | --- | ![Step 8](images/screenshots/step8.png "Step 8")
+1 | Naviate to the homepage | ![Step 1](images/screenshots/step1.png "Step 1")
+2 | Click on "Create Item" & Fill the form, then click on submit button | ![Step 2](images/screenshots/step2.png "Step 2")
+3 | Submit Button redirect to Homepage and you will see the new Item | ![Step 3](images/screenshots/step3.png "Step 3")
+4 | You can check on Content Tree that Marketplace Item Page is already created | ![Step 4](images/screenshots/step4.png "Step 4")
+5 | Aslo you can check that Media Library Item is already created. | ![Step 5](images/screenshots/step5.png "Step 5")
+6 | On Homepage Click on a Marketplace Item, fill the form | ![Step 6](images/screenshots/step6.png "Step 6")
+7 | Get the Download URL, Click on it | ![Step 7](images/screenshots/step7.png "Step 7")
+8 | The file is downloaded | ![Step 8](images/screenshots/step8.png "Step 8")
 
 ## Video
 
