@@ -56,9 +56,7 @@ Provide detailed instructions on how to install the module, and include screensh
 1 | On Launchpad click on Forms | ![Step 1](images/screenshots/step1.png "Step 1")
 2 | Click on Create Blank Form | ![Step 2](images/screenshots/step2.png "Step 2")
 3 | Drag & Drop Single-line text and change Field Name by "fieldName" (mandatory) | ![Step 3](images/screenshots/step3.png "Step 3")
-4 | 1. Add Upload Form Component 
-2. Add Submit Button
-3. Add Save Item to Sitecore | ![Step 4](images/screenshots/step4.png "Step 4")
+4 | 1. Add Upload Form Component 2. Add Submit Button 3. Add Save Item to Sitecore | ![Step 4](images/screenshots/step4.png "Step 4")
 5 | 1. Add Upload Form Component on Page | ![Step 5](images/screenshots/step5.png "Step 5")
 6 | Select datasource | ![Step 6](images/screenshots/step6.png "Step 6")
 7 | Add MVC Form | ![Step 7](images/screenshots/step7.png "Step 7")
