@@ -33,7 +33,18 @@ Provide detailed instructions on how to install the module, and include screensh
 
 ## Configuration
 
-No configuration required
+### Create Upload Form if required
+
+ N | Step | Image or Code Reference
+--- | --- | ---
+1 | Naviate to the homepage | ![Step 1](images/configuration/uploadform/step1.png "Step 1")
+2 | Click on "Create Item" & Fill the form, then click on submit button | ![Step 2](images/configuration/uploadform/step2.png "Step 2")
+3 | Submit Button redirect to Homepage and you will see the new Item | ![Step 3](images/configuration/uploadform/step3.png "Step 3")
+4 | You can check on Content Tree that Marketplace Item Page is already created | ![Step 4](images/configuration/uploadform/step4.png "Step 4")
+5 | Aslo you can check that Media Library Item is already created. | ![Step 5](images/configuration/uploadform/step5.png "Step 5")
+6 | On Homepage Click on a Marketplace Item, fill the form | ![Step 6](images/configuration/uploadform/step6.png "Step 6")
+7 | Get the Download URL, Click on it | ![Step 7](images/configuration/uploadform/step7.png "Step 7")
+8 | The file is downloaded | ![Step 8](images/configuration/uploadform/step8.png "Step 8")
 
 ## Usage
 
