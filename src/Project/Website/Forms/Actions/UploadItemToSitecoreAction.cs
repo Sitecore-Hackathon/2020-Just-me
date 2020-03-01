@@ -12,6 +12,7 @@ using Sitecore.ExperienceForms.Processing.Actions;
 using Sitecore.Diagnostics;
 using Sitecore.ExperienceForms.Mvc.Models.Fields;
 using Sitecore.IO;
+using Sitecore.Publishing;
 using static System.FormattableString;
 using Convert = System.Convert;
 
@@ -109,6 +110,9 @@ namespace Website.Forms.Actions
                         marketplaceItem.Editing.CancelEdit();
                     }
 
+                    PublishItem(mediaItem);
+                    PublishItem(marketplaceItem);
+
                   
 
 
@@ -117,6 +121,22 @@ namespace Website.Forms.Actions
             }
 
             return true;
+        }
+
+        public void PublishItem(Item iParent)
+        {
+            try
+            {
+                PublishOptions po = new PublishOptions(Sitecore.Configuration.Factory.GetDatabase("master"), Sitecore.Configuration.Factory.GetDatabase("web"), PublishMode.SingleItem, Sitecore.Context.Language, DateTime.Now);
+                po.RootItem = iParent;
+                po.Deep = true; // Publishing subitems
+
+                (new Publisher(po)).Publish();
+            }
+            catch (Exception ex)
+            {
+                Sitecore.Diagnostics.Log.Error("Exception publishing items from custom pipeline! : " + ex, this);
+            }
         }
     }
 }

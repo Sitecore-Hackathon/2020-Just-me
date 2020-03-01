@@ -28,7 +28,7 @@ The problem solved is how can dynamic upload the content without sitecore admin 
 
 Provide detailed instructions on how to install the module, and include screenshots where necessary.
 
-1. Use the Sitecore Installation wizard to install the [Marketplace Website Module-1.0.0.zip](https://github.com/Sitecore-Hackathon/2020-Just-me/blob/master/documentation/requirements/Marketplace%20Website%20Module-1.0.0.zip)
+1. Use the Sitecore Installation wizard to install the [Marketplace Website Module-1.0.1.zip](https://github.com/Sitecore-Hackathon/2020-Just-me/blob/master/documentation/requirements/Marketplace%20Website%20Module-1.0.1.zip)
 2. Deploy
 
 ## Configuration
