@@ -46,6 +46,16 @@ Provide detailed instructions on how to install the module, and include screensh
 7 | Get the Download URL, Click on it | ![Step 7](images/configuration/uploadform/step7.png "Step 7")
 8 | The file is downloaded | ![Step 8](images/configuration/uploadform/step8.png "Step 8")
 
+### Create Gated Download Form if required
+
+ N | Step | Image or Code Reference
+--- | --- | ---
+1 | Naviate to the homepage | ![Step 1](images/configuration/downloadform/step1.png "Step 1")
+2 | Click on "Create Item" & Fill the form, then click on submit button | ![Step 2](images/configuration/downloadform/step2.png "Step 2")
+3 | Create the form as your needs | ![Step 3](images/configuration/downloadform/step3.png "Step 3")
+4 | Drag & Drop Download Button on Success Page | ![Step 4](images/configuration/downloadform/step4.png "Step 4")
+5 | Point Submit Button Action to Success Page | ![Step 5](images/configuration/downloadform/step5.png "Step 5")
+
 ## Usage
 
 
