@@ -2,70 +2,76 @@
 
 The documentation for this years Hackathon must be provided as a readme in Markdown format as part of your submission. 
 
-You can find a very good reference to Github flavoured markdown reference in [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). If you want something a bit more WYSIWYG for editing then could use [StackEdit](https://stackedit.io/app) which provides a more user friendly interface for generating the Markdown code. Those of you who are [VS Code fans](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview) can edit/preview directly in that interface too.
-
-Examples of things to include are the following.
-
 ## Summary
 
-**Category:** Hackathon Category
+**Category:** Sitecore Marketplace Website
 
-What is the purpose of your module? What problem does it solve and how does it do that?
+This module provie the nessesary features to have a Marketplace Website. This features include the upload marketplace item and the download marketplace item. Also the download feature is like a Gated Download that you need first fill your personal information to get the download link.
+
+The problem solved is how can dynamic upload the content without sitecore admin interface, and provide basic functionality of the marketplace. It is solve integrated with Sitecore Forms.
+
 
 ## Pre-requisites
 
-Does your module rely on other Sitecore modules or frameworks?
-
-- List any dependencies
-- Or other modules that must be installed
-- Or services that must be enabled/configured
+- Nuget Packages:
+    - Sitecore.Mvc
+    - Sitecore.Mvc.Analytics
+    - Constellation.Foundation.Mvc
+    - Constellation.Foundation.Mvc.Patterns
+    - Constellation.Foundation.Datasources
+    - Constellation.Foundation.ModelMapping
+- Sitecore Packages located at /App_Data/packages:
+    - Constellation-Foundation-Datasources-Items.zip
+    - Sitecore Forms Extensions For Sitecore 9.3-3.0.zip
 
 ## Installation
 
 Provide detailed instructions on how to install the module, and include screenshots where necessary.
 
-1. Use the Sitecore Installation wizard to install the [package](#link-to-package)
-2. ???
-3. Profit
+1. Use the Sitecore Installation wizard to install the [Marketplace Website Module-1.0.0.zip](https://github.com/Sitecore-Hackathon/2020-Just-me/blob/master/documentation/requirements/Marketplace%20Website%20Module-1.0.0.zip)
+2. Deploy
 
 ## Configuration
 
-How do you configure your module once it is installed? Are there items that need to be updated with settings, or maybe config files need to have keys updated?
+### Create Upload Form if required
 
-Remember you are using Markdown, you can provide code samples too:
+ N | Step | Image or Code Reference
+--- | --- | ---
+1 | Naviate to the homepage | ![Step 1](images/configuration/uploadform/step1.png "Step 1")
+2 | Click on "Create Item" & Fill the form, then click on submit button | ![Step 2](images/configuration/uploadform/step2.png "Step 2")
+3 | Submit Button redirect to Homepage and you will see the new Item | ![Step 3](images/configuration/uploadform/step3.png "Step 3")
+4 | You can check on Content Tree that Marketplace Item Page is already created | ![Step 4](images/configuration/uploadform/step4.png "Step 4")
+5 | Aslo you can check that Media Library Item is already created. | ![Step 5](images/configuration/uploadform/step5.png "Step 5")
+6 | On Homepage Click on a Marketplace Item, fill the form | ![Step 6](images/configuration/uploadform/step6.png "Step 6")
+7 | Get the Download URL, Click on it | ![Step 7](images/configuration/uploadform/step7.png "Step 7")
+8 | The file is downloaded | ![Step 8](images/configuration/uploadform/step8.png "Step 8")
 
-```xml
-<?xml version="1.0"?>
-<!--
-  Purpose: Configuration settings for my hackathon module
--->
-<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
-  <sitecore>
-    <settings>
-      <setting name="MyModule.Setting" value="Hackathon" />
-    </settings>
-  </sitecore>
-</configuration>
-```
+### Create Gated Download Form if required
+
+ N | Step | Image or Code Reference
+--- | --- | ---
+1 | Naviate to the homepage | ![Step 1](images/configuration/downloadform/step1.png "Step 1")
+2 | Click on "Create Item" & Fill the form, then click on submit button | ![Step 2](images/configuration/downloadform/step2.png "Step 2")
+3 | Create the form as your needs | ![Step 3](images/configuration/downloadform/step3.png "Step 3")
+4 | Drag & Drop Download Button on Success Page | ![Step 4](images/configuration/downloadform/step4.png "Step 4")
+5 | Point Submit Button Action to Success Page | ![Step 5](images/configuration/downloadform/step5.png "Step 5")
 
 ## Usage
 
-Provide documentation  about your module, how do the users use your module, where are things located, what do icons mean, are there any secret shortcuts etc.
 
-Please include screenshots where necessary. You can add images to the `./images` folder and then link to them from your documentation:
+### Create Upload Form
 
-![Hackathon Logo](images/hackathon.png?raw=true "Hackathon Logo")
-
-You can embed images of different formats too:
-
-![Deal With It](images/deal-with-it.gif?raw=true "Deal With It")
-
-And you can embed external images too:
-
-![Random](https://placeimg.com/480/240/any "Random")
+ N | Step | Image or Code Reference
+--- | --- | ---
+1 | On Launchpad click on Forms | ![Step 1](images/screenshots/step1.png "Step 1")
+2 | Click on Create Blank Form | ![Step 2](images/screenshots/step2.png "Step 2")
+3 | Drag & Drop Single-line text and change Field Name by "fieldName" (mandatory) | ![Step 3](images/screenshots/step3.png "Step 3")
+4 | 1. Add Upload Form Component 2. Add Submit Button 3. Add Save Item to Sitecore | ![Step 4](images/screenshots/step4.png "Step 4")
+5 | 1. Add Upload Form Component on Page | ![Step 5](images/screenshots/step5.png "Step 5")
+6 | Select datasource | ![Step 6](images/screenshots/step6.png "Step 6")
+7 | Add MVC Form | ![Step 7](images/screenshots/step7.png "Step 7")
+8 | Select "Upload Form" | ![Step 8](images/screenshots/step8.png "Step 8")
 
 ## Video
 
-Please provide a video highlighing your Hackathon module submission and provide a link to the video. Either a [direct link](https://www.youtube.com/watch?v=EpNhxW4pNKk) to the video, upload it to this documentation folder or maybe upload it to Youtube...
-
-[![Sitecore Hackathon Video Embedding Alt Text](https://img.youtube.com/vi/EpNhxW4pNKk/0.jpg)](https://www.youtube.com/watch?v=EpNhxW4pNKk)
+[![Sitecore Hackathon 2020 - Just me!](https://img.youtube.com/vi/fQ8qPVl5AoA/0.jpg)](https://youtu.be/fQ8qPVl5AoA)
