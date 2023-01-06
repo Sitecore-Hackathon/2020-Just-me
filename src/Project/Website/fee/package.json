@@ -20,6 +20,6 @@
     "popper.js": "^1.12",
     "jquery": "^3.2",
     "cross-env": "^5.1",
-    "laravel-mix": "^2.0"
+    "laravel-mix": "^6.0"
   }
 }
